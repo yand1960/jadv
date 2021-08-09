@@ -1,4 +1,10 @@
 Version 1
 Add some text
+<<<<<<< HEAD
 It is experiment
 Added in experiment
+=======
+Changed in master
+>>>>>>> master
+
+Smth more
