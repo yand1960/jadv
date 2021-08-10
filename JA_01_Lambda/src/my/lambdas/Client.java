@@ -17,7 +17,7 @@ public class Client {
 //        results.stream().forEach(x -> {
 //            System.out.println(x);
 //        });
-//  just comment
+//  just comment!!!
         data.stream().filter(x -> x % 2 == 1)
 //                .collect(Collectors.toList())
                 .forEach(x -> {
