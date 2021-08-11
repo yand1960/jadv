@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Пример построения исполняемого jar файла с зависимостями
+средствами Maven - см.раздел <build>. Чтобы Идея использовала
+чисто мавеновский, а не свой встроенный поcтроитель,
+нужно зайти File-<Build,Execution...>-<Build Tools>-Maven-Runners
+и поставить опцию <Delegate IDE Build/Run actions to Maven>.
+ -->
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -30,6 +38,10 @@
         </dependency>
     </dependencies>
 
+    <!--
+    Первый плагин конфигурирует копирование зависимостей,
+    второй - создание jar файла
+    -->
     <build>
         <plugins>
             <plugin>
