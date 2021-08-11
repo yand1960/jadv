@@ -26,7 +26,7 @@ public class MeterClient {
 
         // Без этого executor не отключится
         // и приложение работу не закончит:
-        //meter.shutdown();
+        meter.shutdown();
     }
 
     public static void main9(String[] args) {
