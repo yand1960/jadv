@@ -5,6 +5,10 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import java.util.List;
 
+// Файл persistence.xml должен находиться на classpath'е
+// в папке META-INF. Т.е. в мавеновском проекте он
+// должен быть в папке src/main/Resources/META-INF.
+
 public class DemoJPA {
 
     public static void main(String[] args) {
