@@ -1,0 +1,4 @@
+Aug 12, 2021 2:47:56 PM my.logging.DemoLogging main
+INFO: It is info
+Aug 12, 2021 2:47:56 PM my.logging.DemoLogging main
+SEVERE: I am severe
