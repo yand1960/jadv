@@ -2,3 +2,17 @@ Aug 12, 2021 2:47:56 PM my.logging.DemoLogging main
 INFO: It is info
 Aug 12, 2021 2:47:56 PM my.logging.DemoLogging main
 SEVERE: I am severe
+Aug 12, 2021 4:07:33 PM my.logging.DemoLogging main
+INFO: It is info
+Aug 12, 2021 4:07:34 PM my.logging.DemoLogging main
+SEVERE: I am severe
+Aug 12, 2021 4:12:38 PM my.logging.DemoLogging main
+SEVERE: I am severe
+Aug 12, 2021 4:13:58 PM my.logging.DemoLogging main
+SEVERE: I am severe
+Aug 12, 2021 4:14:12 PM my.logging.DemoLogging main
+INFO: It is info
+Aug 12, 2021 4:14:13 PM my.logging.DemoLogging main
+SEVERE: I am severe
+Aug 12, 2021 4:14:40 PM my.logging.DemoLogging main
+SEVERE: I am severe

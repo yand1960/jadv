@@ -9,7 +9,7 @@ public class DemoLogging {
         LogManager
                 .getLogManager()
                 .readConfiguration(
-                        DemoLogging.class.getResourceAsStream("logger.properties")
+                        DemoLogging.class.getResourceAsStream("../../logger.properties")
                 );
 
         Logger logger = Logger.getLogger(DemoLogging.class.getName());
