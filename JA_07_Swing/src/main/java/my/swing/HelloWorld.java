@@ -22,11 +22,11 @@ public class HelloWorld extends JFrame {
         this.add(text1);
         this.add(button);
         this.setBounds(20,20,140,120);
-
     }
 
     public static void main(String[] args) {
         HelloWorld frame = new HelloWorld();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
 
