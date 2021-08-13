@@ -4,6 +4,8 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0"
          metadata-complete="false">
+
+<!--    Можно зарегистрировать сервлет и таким образом, но аннотация лучше:-->
 <!--    <servlet>-->
 <!--        <servlet-name>TimeServlet</servlet-name>-->
 <!--        <servlet-class>my.servlets.TimeServlet</servlet-class>-->

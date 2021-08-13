@@ -15,7 +15,7 @@ import java.util.Date;
 // File-<Build,Execution...>-<Build Tools>-Maven-Runners
 // и поставить опцию <Delegate IDE Build/Run actions to Maven>.
 
-//Что аннотация сервлета сроботала, в web.xml
+// NB. Чтобы аннотация сервлета сработала, в web.xml
 // не должно быть атрибута metadata-complete="true":
 @WebServlet(name="time", urlPatterns = {"/time"})
 public class TimeServlet extends HttpServlet {
